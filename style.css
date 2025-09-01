@@ -17,7 +17,6 @@ body {
 body {
   padding:50px;
   font-size:1em;
-  color:#555;
   font-weight:300;
 }
 
@@ -34,12 +33,40 @@ h1 {
   font-size:2em;
 }
 
-h1, h1 {
+body h1 h2 {
   color:#222;
 }
 
-h2 {
-  color:#333;
+ol > li::marker {
+  color:#000;
+}
+
+ol > li {
+  margin: 0.5rem 0 0 0;
+}
+
+.box {
+  display: grid;
+  margin: 0.5rem 0 0 1rem;
+  break-inside: avoid-page;
+}
+
+.name{
+  float: left;
+  grid-column: 1;
+  font-style: italic;
+}
+
+.date {
+  margin: 0 0 0 1rem;
+  justify-self: end;
+  text-align-last: end;
+  grid-column: 2;
+}
+
+.place {
+  margin: 0.1rem 0 0.1rem 0;
+  font-style: normal;
 }
 
 a {
@@ -50,6 +77,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.black {
+  color:#000;
 }
 
 img {
@@ -168,22 +199,26 @@ article {
 }
 
 /* Darkreader */
-[data-darkreader-scheme="dark"] body {
+[data-darkreader-scheme="dark"] body,
+[data-darkreader-scheme="dark"] h1,
+[data-darkreader-scheme="dark"] h2 {
   color:#DDD;
 }
 
-[data-darkreader-scheme="dark"] h1,
-[data-darkreader-scheme="dark"] h2,
-[data-darkreader-scheme="dark"] p {
+[data-darkreader-scheme="dark"] ol > li::marker {
   color:#FFF;
 }
 
 [data-darkreader-scheme="dark"] a {
-  color:#D97;
+  color:#FA7;
   font-weight:400;
   text-decoration:none;
 }
 
 [data-darkreader-scheme="dark"] a:hover {
   text-decoration: underline;
+}
+
+[data-darkreader-scheme="dark"] .black {
+  color:#FFF;
 }
