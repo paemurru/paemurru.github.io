@@ -5,9 +5,9 @@ html {
 }
 
 html, body, iframe {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
@@ -15,30 +15,30 @@ body {
 }
 
 body {
-  padding:50px;
-  font-size:1em;
-  font-weight:300;
+  padding: 50px;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 h1, h2, p {
-  margin:0 0 20px;
+  margin: 0 0 20px;
 }
 
 h1, h2, a {
-  line-height:1.1;
-  font-weight:700;
+  line-height: 1.1;
+  font-weight: 700;
 }
 
 h1 {
-  font-size:2em;
+  font-size: 2em;
 }
 
 body h1 h2 {
-  color:#222;
+  color: #222;
 }
 
 ol > li::marker {
-  color:#000;
+  color: #000;
 }
 
 ol > li {
@@ -70,9 +70,9 @@ ol > li {
 }
 
 a {
-  color:#842;
-  font-weight:400;
-  text-decoration:none;
+  color: #842;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 a:hover {
@@ -80,121 +80,121 @@ a:hover {
 }
 
 .black {
-  color:#000;
+  color: #000;
 }
 
 img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 article p {
-  text-align:justify;
+  text-align: justify;
 }
 
 /* Page structure styling */
 #wrapper {
-  width:860px;
-  margin:0 auto;
+  width: 860px;
+  margin: 0 auto;
 }
 
 header {
-  width:180px;
-  float:left;
-  position:fixed;
+  width: 180px;
+  float: left;
+  position: fixed;
 }
 
 header ul {
-  list-style-type:square;
-  color:#999;
-  padding-left:40px;
+  list-style-type: square;
+  color: #999;
+  padding-left: 40px;
 }
 
 article {
-  width:600px;
-  float:right;
-  padding-bottom:50px;
-  font-size:0.9em;
+  width: 600px;
+  float: right;
+  padding-bottom: 50px;
+  font-size: 0.9em;
 }
 
 /* Different screen sizes */
 @media print, screen and (max-width: 960px) {
   #wrapper {
-    width:auto;
-    margin:0;
+    width: auto;
+    margin: 0;
   }
   header, article {
-    float:none;
-    position:static;
-    width:auto;
+    float: none;
+    position: static;
+    width: auto;
   }
   header {
-    padding-right:320px;
+    padding-right: 320px;
   }
   article {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
   header a small {
-    display:inline;
+    display: inline;
   }
   header ul {
-    position:absolute;
-    right:50px;
-    top:58px;
+    position: absolute;
+    right: 50px;
+    top: 58px;
   }
   header li {
-    display:inline;
-    padding:2px 10px;
+    display: inline;
+    padding: 2px 10px;
   }
 }
 
 @media print, screen and (max-width: 720px) {
   body {
-    word-wrap:break-word;
+    word-wrap: break-word;
   }
   header {
-    padding:0;
+    padding: 0;
   }
   pre, code {
-    word-wrap:normal;
+    word-wrap: normal;
   }
   header li {
-    padding:2px 4px;
+    padding: 2px 4px;
   }
 }
 
 @media print, screen and (max-width: 600px) {
   body {
-    padding:15px;
+    padding: 15px;
   }
   header ul {
-    list-style:none;
-    top:10px;
-    right:15px;
-    text-align:right;
-    line-height:1.2;
+    list-style: none;
+    top: 10px;
+    right: 15px;
+    text-align: right;
+    line-height: 1.2;
   }
   header li {
-    display:block;
-    padding:0;
+    display: block;
+    padding: 0;
   }
   h1, h1 a {
-    margin:0 0 40px;
+    margin: 0 0 40px;
   }
 }
 
 @media screen and (max-width: 480px) {
   article p, article li {
-    text-align:left
+    text-align: left
   }
 }
 
 @media print {
   body {
-    padding:0.4in;
-    font-size:0.8em;
+    padding: 0.4in;
+    font-size: 0.8em;
   }
 }
 
@@ -202,17 +202,17 @@ article {
 [data-darkreader-scheme="dark"] body,
 [data-darkreader-scheme="dark"] h1,
 [data-darkreader-scheme="dark"] h2 {
-  color:#DDD;
+  color: #DDD;
 }
 
 [data-darkreader-scheme="dark"] ol > li::marker {
-  color:#FFF;
+  color: #FFF;
 }
 
 [data-darkreader-scheme="dark"] a {
-  color:#FA7;
-  font-weight:400;
-  text-decoration:none;
+  color: #FA7;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 [data-darkreader-scheme="dark"] a:hover {
@@ -220,5 +220,5 @@ article {
 }
 
 [data-darkreader-scheme="dark"] .black {
-  color:#FFF;
+  color: #FFF;
 }
